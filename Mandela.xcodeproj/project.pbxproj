@@ -14,6 +14,19 @@
 		D60A484D2998605B0013F066 /* MandelaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60A484C2998605B0013F066 /* MandelaTests.swift */; };
 		D60A48572998605B0013F066 /* MandelaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60A48562998605B0013F066 /* MandelaUITests.swift */; };
 		D60A48592998605B0013F066 /* MandelaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60A48582998605B0013F066 /* MandelaUITestsLaunchTests.swift */; };
+		D60A48782998639D0013F066 /* vm_unaligned_copy_switch_race.c in Sources */ = {isa = PBXBuildFile; fileRef = D60A48722998639D0013F066 /* vm_unaligned_copy_switch_race.c */; };
+		D60A48792998639D0013F066 /* helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = D60A48732998639D0013F066 /* helpers.m */; };
+		D60A487A2998639D0013F066 /* grant_full_disk_access.m in Sources */ = {isa = PBXBuildFile; fileRef = D60A48752998639D0013F066 /* grant_full_disk_access.m */; };
+		D60A487E299863D60013F066 /* Haptic++.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60A487C299863D60013F066 /* Haptic++.swift */; };
+		D60A487F299863D60013F066 /* Alert++.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60A487D299863D60013F066 /* Alert++.swift */; };
+		D60A48812998654C0013F066 /* ResolutionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60A48802998654C0013F066 /* ResolutionView.swift */; };
+		D60A4884299865610013F066 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60A4883299865610013F066 /* Common.swift */; };
+		D60A4887299866B40013F066 /* MuteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60A4886299866B40013F066 /* MuteView.swift */; };
+		D60A488A299867100013F066 /* SuperviseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60A4889299867100013F066 /* SuperviseView.swift */; };
+		D60A488C2998672A0013F066 /* CarrierChangerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60A488B2998672A0013F066 /* CarrierChangerView.swift */; };
+		D60A488F299867370013F066 /* AirPowerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60A488E299867370013F066 /* AirPowerView.swift */; };
+		D60A4892299867450013F066 /* DOOMView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60A4891299867450013F066 /* DOOMView.swift */; };
+		D60A489429986BF20013F066 /* TypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60A489329986BF20013F066 /* TypeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +57,23 @@
 		D60A48522998605B0013F066 /* MandelaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MandelaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D60A48562998605B0013F066 /* MandelaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MandelaUITests.swift; sourceTree = "<group>"; };
 		D60A48582998605B0013F066 /* MandelaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MandelaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D60A48712998639D0013F066 /* grant_full_disk_access.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = grant_full_disk_access.h; sourceTree = "<group>"; };
+		D60A48722998639D0013F066 /* vm_unaligned_copy_switch_race.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vm_unaligned_copy_switch_race.c; sourceTree = "<group>"; };
+		D60A48732998639D0013F066 /* helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = helpers.m; sourceTree = "<group>"; };
+		D60A48742998639D0013F066 /* vm_unaligned_copy_switch_race.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vm_unaligned_copy_switch_race.h; sourceTree = "<group>"; };
+		D60A48752998639D0013F066 /* grant_full_disk_access.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = grant_full_disk_access.m; sourceTree = "<group>"; };
+		D60A48762998639D0013F066 /* helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = helpers.h; sourceTree = "<group>"; };
+		D60A48772998639D0013F066 /* Mandela-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Mandela-Bridging-Header.h"; sourceTree = "<group>"; };
+		D60A487C299863D60013F066 /* Haptic++.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Haptic++.swift"; sourceTree = "<group>"; };
+		D60A487D299863D60013F066 /* Alert++.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Alert++.swift"; sourceTree = "<group>"; };
+		D60A48802998654C0013F066 /* ResolutionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResolutionView.swift; sourceTree = "<group>"; };
+		D60A4883299865610013F066 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		D60A4886299866B40013F066 /* MuteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuteView.swift; sourceTree = "<group>"; };
+		D60A4889299867100013F066 /* SuperviseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperviseView.swift; sourceTree = "<group>"; };
+		D60A488B2998672A0013F066 /* CarrierChangerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrierChangerView.swift; sourceTree = "<group>"; };
+		D60A488E299867370013F066 /* AirPowerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirPowerView.swift; sourceTree = "<group>"; };
+		D60A4891299867450013F066 /* DOOMView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DOOMView.swift; sourceTree = "<group>"; };
+		D60A489329986BF20013F066 /* TypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +125,10 @@
 			isa = PBXGroup;
 			children = (
 				D60A483B299860590013F066 /* MandelaApp.swift */,
-				D60A483D299860590013F066 /* ContentView.swift */,
+				D60A4883299865610013F066 /* Common.swift */,
+				D60A487B299863AA0013F066 /* Extensions */,
+				D60A4866299861FC0013F066 /* Exploit */,
+				D60A4865299860800013F066 /* Views */,
 				D60A483F2998605B0013F066 /* Assets.xcassets */,
 				D60A48412998605B0013F066 /* Preview Content */,
 			);
@@ -125,6 +158,44 @@
 				D60A48582998605B0013F066 /* MandelaUITestsLaunchTests.swift */,
 			);
 			path = MandelaUITests;
+			sourceTree = "<group>";
+		};
+		D60A4865299860800013F066 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D60A483D299860590013F066 /* ContentView.swift */,
+				D60A48802998654C0013F066 /* ResolutionView.swift */,
+				D60A4886299866B40013F066 /* MuteView.swift */,
+				D60A4889299867100013F066 /* SuperviseView.swift */,
+				D60A488B2998672A0013F066 /* CarrierChangerView.swift */,
+				D60A488E299867370013F066 /* AirPowerView.swift */,
+				D60A489329986BF20013F066 /* TypeView.swift */,
+				D60A4891299867450013F066 /* DOOMView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D60A4866299861FC0013F066 /* Exploit */ = {
+			isa = PBXGroup;
+			children = (
+				D60A48712998639D0013F066 /* grant_full_disk_access.h */,
+				D60A48752998639D0013F066 /* grant_full_disk_access.m */,
+				D60A48762998639D0013F066 /* helpers.h */,
+				D60A48732998639D0013F066 /* helpers.m */,
+				D60A48772998639D0013F066 /* Mandela-Bridging-Header.h */,
+				D60A48722998639D0013F066 /* vm_unaligned_copy_switch_race.c */,
+				D60A48742998639D0013F066 /* vm_unaligned_copy_switch_race.h */,
+			);
+			path = Exploit;
+			sourceTree = "<group>";
+		};
+		D60A487B299863AA0013F066 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D60A487D299863D60013F066 /* Alert++.swift */,
+				D60A487C299863D60013F066 /* Haptic++.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +266,7 @@
 				TargetAttributes = {
 					D60A4837299860590013F066 = {
 						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
 					};
 					D60A48472998605B0013F066 = {
 						CreatedOnToolsVersion = 14.2;
@@ -257,8 +329,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D60A489429986BF20013F066 /* TypeView.swift in Sources */,
+				D60A488A299867100013F066 /* SuperviseView.swift in Sources */,
+				D60A487E299863D60013F066 /* Haptic++.swift in Sources */,
 				D60A483E299860590013F066 /* ContentView.swift in Sources */,
+				D60A4892299867450013F066 /* DOOMView.swift in Sources */,
 				D60A483C299860590013F066 /* MandelaApp.swift in Sources */,
+				D60A487A2998639D0013F066 /* grant_full_disk_access.m in Sources */,
+				D60A488F299867370013F066 /* AirPowerView.swift in Sources */,
+				D60A4884299865610013F066 /* Common.swift in Sources */,
+				D60A487F299863D60013F066 /* Alert++.swift in Sources */,
+				D60A48782998639D0013F066 /* vm_unaligned_copy_switch_race.c in Sources */,
+				D60A48812998654C0013F066 /* ResolutionView.swift in Sources */,
+				D60A48792998639D0013F066 /* helpers.m in Sources */,
+				D60A488C2998672A0013F066 /* CarrierChangerView.swift in Sources */,
+				D60A4887299866B40013F066 /* MuteView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,25 +499,30 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Mandela/Preview Content\"";
 				DEVELOPMENT_TEAM = 8JKVMYCRTJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.5;
 				PRODUCT_BUNDLE_IDENTIFIER = ca.bomberfish.Mandela;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Mandela/Exploit/Mandela-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -443,25 +533,29 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Mandela/Preview Content\"";
 				DEVELOPMENT_TEAM = 8JKVMYCRTJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.5;
 				PRODUCT_BUNDLE_IDENTIFIER = ca.bomberfish.Mandela;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Mandela/Exploit/Mandela-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
